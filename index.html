@@ -26,7 +26,40 @@
 </head>
 <body class="font-lato">
     <header class="container mx-auto">
-
+        <nav>
+            <div class="navbar h-28 rounded-full px-10 bg-[#F85559]">
+                <div class="navbar-start">
+                    <ul class="flex invisible md:visible gap-7 font-medium text-lg text-[#FFFFFF]">
+                        <li><a>Home</a></li>
+                        <li><a>About Us</a></li>
+                        <li><a>Shop</a></li>
+                        <li><a>All Fruits</a></li>
+                      </ul>
+                </div>
+                <div class="navbar-center">
+                    <img src="images/logo.png" alt="">
+                    <h2 class="text-[#FFFFFF] text-4xl font-bold pl-4S">
+                        Fruit Burst
+                    </h2>
+                </div>
+                <div class="navbar-end">
+                  <input style="background-image: url('./images/magnifying-glass-solid.svg'); background-repeat: no-repeat;background-size:20px;background-position-x:calc(350px);background-position-y: center;width: 400px;;border-radius: 50px;height:2.5rem" type="text" placeholder="Search here" class="input lg:visible invisible"/> 
+                  <!-- <input type="text" placeholder="Search here" class="input bg-[center_right_20rem] bg-[length:24px_24px] bg-[url('./images/magnifying-glass-solid.svg')] bg-no-repeat md:w-auto"/> -->
+                  <!-- <input class="w-96 h-12 rounded-full px-8 bg-[center_right_20rem] bg-[length:24px_24px] bg-[url('./images/magnifying-glass-solid.svg')] bg-no-repeat md:w-auto" type="text" placeholder="Search here"> -->
+                </div>
+               <div class="dropdown visible lg:hidden">
+                      <label tabindex="0" class=" btn btn-ghost btn-circle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+                      </label>
+                      <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                        <li><a>Home</a></li>
+                        <li><a>About Us</a></li>
+                        <li><a>Shop</a></li>
+                        <li><a>All Fruits</a></li>
+                      </ul>
+                    </div>
+              </div>
+        </nav>
     </header>
     <main class="container mx-auto">
 
